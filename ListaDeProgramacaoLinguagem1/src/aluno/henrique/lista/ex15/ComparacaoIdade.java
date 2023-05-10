@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 public class ComparacaoIdade {
 
 	public static void main(String[] args) {
-		String[] nomeCanditadas = new String[4];
-		int[] idadeCanditadas = new int[4];
+		String[] nomeCanditadas = new String[10];
+		int[] idadeCanditadas = new int[10];
 		String nomes;
 		int idades;
 		
@@ -21,7 +21,7 @@ public class ComparacaoIdade {
 						+ "entre 18 e 20");
 				System.out.println("------------------------------------------------------------------------------");
 			}else {
-				System.out.println("Não pode participar pois sua idade não está nos parametros de 18 e 20 anos para poder participar do concurso, sinto muito!");
+				System.out.println("Você " + nomeCanditadas[i] +  " não pode participar pois sua idade não está nos parametros de 18 e 20 anos para poder participar do concurso, sinto muito!");
 				System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 			}
 			
