@@ -23,6 +23,7 @@ public class ComparacaoIdade {
 			}else {
 				System.out.println("Você " + nomeCanditadas[i] +  " não pode participar pois sua idade não está nos parametros de 18 e 20 anos para poder participar do concurso, sinto muito!");
 				System.out.println("---------------------------------------------------------------------------------------------------------------------------");
+			
 			}
 			
 		}
