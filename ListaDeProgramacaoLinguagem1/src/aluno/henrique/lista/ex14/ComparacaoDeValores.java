@@ -28,8 +28,8 @@ public class ComparacaoDeValores {
 			}
 		}
 		System.out.println("A quantidade de números maiores que X são " + contadorMaior);
-	    System.out.println("A quantidade de números menores que X são " + contadorMenor);
-	    System.out.println("A quantidade de números iguais á X são " + contadorIgual);
+	    	System.out.println("A quantidade de números menores que X são " + contadorMenor);
+	    	System.out.println("A quantidade de números iguais á X são " + contadorIgual);
 	}
 
 }
