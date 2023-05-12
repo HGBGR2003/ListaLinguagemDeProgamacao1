@@ -22,7 +22,7 @@ public class ContadorDeEspacos {
 	    }
 	    
 	    System.out.println("Frase sem espaços em branco: " + fraseSemEspacos.toString());
-       	    System.out.println("Quantidade de espaços em branco: " + cortaEContar);
+       	System.out.println("Quantidade de espaços em branco: " + cortaEContar);
 	    
 	}
 }
