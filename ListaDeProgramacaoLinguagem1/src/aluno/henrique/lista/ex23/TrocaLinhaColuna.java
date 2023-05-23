@@ -4,15 +4,28 @@ import javax.swing.JOptionPane;
 
 public class TrocaLinhaColuna {
 	public static void main(String[] args) {
+		Mudanca mu = new Mudanca();
 		int [][] vetorPrincipal;
-		int digitadoPeloUsuario;
+		int digitadoPeloUsuarioTamanho;
+		int numeroNoVetor;
 		
-		digitadoPeloUsuario = Integer.parseInt(JOptionPane.showInputDialog("Informe o tamanho do array?"));
-		vetorPrincipal = new int[digitadoPeloUsuario][digitadoPeloUsuario];
+		digitadoPeloUsuarioTamanho = Integer.parseInt(JOptionPane.showInputDialog("Informe o tamanho do array?"));
+		vetorPrincipal = new int [digitadoPeloUsuarioTamanho][digitadoPeloUsuarioTamanho];
 		
-		for(int l = 0; l < vetorPrincipal.length; l++) {
-			
+		for(int linha = 0; linha < vetorPrincipal.length; linha++) {
+			for(int coluna = 0; coluna < vetorPrincipal.length; coluna++) {
+				numeroNoVetor = Integer.parseInt(JOptionPane.showInputDialog("Entre com um número:"));
+				vetorPrincipal[linha][coluna] = numeroNoVetor;
+			}
 		}
+
+		System.out.println("Matriz Original");
+		mu.exibirMatriz(vetorPrincipal);
+		
+		int [][] matrizTransposta = mu.trocarLinhasPorColunas(vetorPrincipal);
+		
+		System.out.println("Matriz Transposta");
+		mu.exibirMatriz(matrizTransposta);
 	}
 
 }
