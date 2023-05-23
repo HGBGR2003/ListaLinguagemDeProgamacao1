@@ -20,11 +20,16 @@ public class TrocaLinhaColuna {
 		}
 
 		System.out.println("Matriz Original");
+		System.out.println("-------------------");
 		mu.exibirMatriz(vetorPrincipal);
+		
+		System.out.println("---------------------");
+		
 		
 		int [][] matrizTransposta = mu.trocarLinhasPorColunas(vetorPrincipal);
 		
 		System.out.println("Matriz Transposta");
+		System.out.println("--------------------");
 		mu.exibirMatriz(matrizTransposta);
 	}
 

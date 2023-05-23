@@ -14,7 +14,7 @@ public class Mudanca {
 	        return matrizTransposta;
 	    }
 	    
-	    public static void exibirMatriz(int[][] vetor) {
+	  public static void exibirMatriz(int[][] vetor) {
 	        int tamanhoDaMatriz = vetor.length;
 	        
 	        for (int linha = 0; linha < tamanhoDaMatriz; linha++) {
