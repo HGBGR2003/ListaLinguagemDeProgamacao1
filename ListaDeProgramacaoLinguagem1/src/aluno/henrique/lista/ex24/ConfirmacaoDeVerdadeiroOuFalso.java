@@ -1,15 +1,12 @@
 package aluno.henrique.lista.ex24;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class ConfirmacaoDeVerdadeiroOuFalso {
 
 	public static void main(String[] args) {
 		boolean [][] principal;
-		TrocaLinhaColuna tlc = new TrocaLinhaColuna();
-		int tamanhoDoVet;
+        int tamanhoDoVet;
 		boolean verdOuFal;
 		
 		tamanhoDoVet = Integer.parseInt(JOptionPane.showInputDialog("Entre com o tamanho do vetor:"));
@@ -24,17 +21,13 @@ public class ConfirmacaoDeVerdadeiroOuFalso {
 			}
 		}
 		
-		System.out.println("Matriz Normal");
-		tlc.mostraMensagem(principal);
-		
-		boolean [][] matrizMudada = tlc.trocarLinhaColuna(principal);
-		
-		System.out.println("Matriz transposta");
-		tlc.mostraMensagem(matrizMudada);
-		
-		
-		
-		
+		for(int l = 0; l < principal.length; l++) {
+			for(int c = 0; c < principal.length; c++) {
+				boolean valorResultado = false;
+				valorResultado = principal[l][c] && principal[c][l];
+				System.out.println("Resultado da operação AND entre posição (" + l + ", " + c + ") e posição (" + c + ", " + l + "): " + valorResultado);
+			}
+		}
 	}
 
 }
