@@ -8,7 +8,7 @@ public class ConfirmacaoDeVerdadeiroOuFalso {
 
 	public static void main(String[] args) {
 		boolean [][] principal;
-		ConfirmacaoDeVerdadeiroOuFalso cvf = new ConfirmacaoDeVerdadeiroOuFalso();
+		TrocaLinhaColuna tlc = new TrocaLinhaColuna();
 		int tamanhoDoVet;
 		boolean verdOuFal;
 		
@@ -25,6 +25,14 @@ public class ConfirmacaoDeVerdadeiroOuFalso {
 		}
 		
 		System.out.println("Matriz Normal");
+		tlc.mostraMensagem(principal);
+		
+		boolean [][] matrizMudada = tlc.trocarLinhaColuna(principal);
+		
+		System.out.println("Matriz transposta");
+		tlc.mostraMensagem(matrizMudada);
+		
+		
 		
 		
 	}
