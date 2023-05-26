@@ -20,10 +20,7 @@ public class ConfirmacaoDeVerdadeiroOuFalso {
 				principal[l][c] = verdOuFal; 
 			}
 		}
-		
-		System.out.println("ola");
-		System.out.println("Ola");
-		
+				
 		for(int l = 0; l < principal.length; l++) {
 			for(int c = 0; c < principal.length; c++) {
 				boolean valorResultado = false;
