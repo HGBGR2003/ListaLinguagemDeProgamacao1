@@ -7,7 +7,7 @@ public class SomenteVogais {
 	public static void main(String[] args) {
 		String frase;
 		
-		frase = JOptionPane.showInputDialog("Entre com uma frase:");
+		frase = JOptionPane.showInputDialog("Entre com uma frase: (Sem acento)");
 				
 		for(int i = 0; i < frase.length(); i++) {
 			char vogais = frase.toLowerCase().charAt(i);
