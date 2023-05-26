@@ -29,6 +29,8 @@ public class KMaiores {
 		
 		int[] elementos = pom.obterOsMaioresElementosDoVetor(vetorPadrao, k);
 		
+		System.out.println("Ola Mundo");
+		
 		System.out.println("Os " + k + " maiores elementos são:");
 		System.out.println(Arrays.toString(elementos));
 		
