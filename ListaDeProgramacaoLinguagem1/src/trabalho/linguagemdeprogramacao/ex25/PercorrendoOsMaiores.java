@@ -1,4 +1,4 @@
-package aluno.henrique.lista.ex25;
+package trabalho.linguagemdeprogramacao.ex25;
 
 import java.util.Arrays;
 

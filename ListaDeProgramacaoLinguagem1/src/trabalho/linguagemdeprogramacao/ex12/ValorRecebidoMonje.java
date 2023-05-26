@@ -1,4 +1,4 @@
-package aluno.henrique.lista.ex12;
+package trabalho.linguagemdeprogramacao.ex12;
 
 import java.math.BigInteger;
 

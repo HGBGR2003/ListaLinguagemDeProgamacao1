@@ -1,4 +1,4 @@
-package aluno.henrique.lista.ex23;
+package trabalho.linguagemdeprogramacao.ex23;
 
 public class Mudanca {
 	 public static int[][] trocarLinhasPorColunas(int[][] vetor) {

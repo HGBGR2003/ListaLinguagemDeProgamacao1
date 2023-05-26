@@ -1,4 +1,4 @@
-package aluno.henrique.lista.ex24;
+package trabalho.linguagemdeprogramacao.ex24;
 
 import javax.swing.JOptionPane;
 
