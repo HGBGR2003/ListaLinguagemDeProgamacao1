@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex11;
 
 import javax.swing.JOptionPane;
 
-public class VetorMaiorOuMenor {
+public class Questao11 {
 
 	public static void main(String[] args) {
 		int i;

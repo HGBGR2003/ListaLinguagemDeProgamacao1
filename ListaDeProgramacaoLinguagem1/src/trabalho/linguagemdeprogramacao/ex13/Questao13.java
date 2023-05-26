@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex13;
 
 import javax.swing.JOptionPane;
 
-public class MatrizAoDerredorZeros {
+public class Questao13 {
 	public static void main(String[] args) {
 		
 		String sequencia = JOptionPane.showInputDialog("Digite a sequencia de números com espaços brancos entre eles:");

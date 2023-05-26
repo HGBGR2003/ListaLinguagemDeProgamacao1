@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex18;
 
 import javax.swing.JOptionPane;
 
-public class ContadorDeEspacos {
+public class Questao18 {
 
 	public static void main(String[] args) {
 		String fraseCaracteres = null;

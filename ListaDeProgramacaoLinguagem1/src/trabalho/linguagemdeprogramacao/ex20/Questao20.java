@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex20;
 
 import javax.swing.JOptionPane;
 
-public class MediaVetorESeuMaior {
+public class Questao20 {
 
 	public static void main(String[] args) {
 		int[] vetorPrincipal;

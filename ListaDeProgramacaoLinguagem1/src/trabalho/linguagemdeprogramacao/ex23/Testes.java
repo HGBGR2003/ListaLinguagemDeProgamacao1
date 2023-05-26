@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex23;
 
 import javax.swing.JOptionPane;
 
-public class TrocaLinhaColuna {
+public class Testes {
 	public static void main(String[] args) {
 		Mudanca mu = new Mudanca();
 		int [][] vetorPrincipal;

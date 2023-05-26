@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex24;
 
 import javax.swing.JOptionPane;
 
-public class ConfirmacaoDeVerdadeiroOuFalso {
+public class Questao24 {
 
 	public static void main(String[] args) {
 		boolean [][] principal;

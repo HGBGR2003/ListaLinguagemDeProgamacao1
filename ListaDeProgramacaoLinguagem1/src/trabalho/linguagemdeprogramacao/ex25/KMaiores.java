@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class KMaiores {
 
 	public static void main(String[] args) {
-		PercorrendoOsMaiores pom = new PercorrendoOsMaiores();
+		Testes pom = new Testes();
 		int [][] vetorPadrao;
 		int numerosVetor;
 		int linhas;

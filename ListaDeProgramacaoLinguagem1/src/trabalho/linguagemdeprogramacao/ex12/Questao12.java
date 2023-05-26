@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex12;
 
 import java.math.BigInteger;
 
-public class ValorRecebidoMonje {
+public class Questao12 {
 
 	public static void main(String[] args) {
 		int totalQuadros = 64;

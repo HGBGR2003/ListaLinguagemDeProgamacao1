@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex19;
 
 import javax.swing.JOptionPane;
 
-public class SomenteVogais {
+public class Questao19 {
 
 	public static void main(String[] args) {
 		String frase;

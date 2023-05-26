@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex16;
 
 import javax.swing.JOptionPane;
 
-public class ValoresIdenticos {
+public class Questao16 {
 
 	public static void main(String[] args) {
 		int[] v1;

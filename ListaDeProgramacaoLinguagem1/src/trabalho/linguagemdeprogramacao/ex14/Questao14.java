@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex14;
 
 import javax.swing.JOptionPane;
 
-public class ComparacaoDeValores {
+public class Questao14 {
 
 	public static void main(String[] args) {
 		int [] vetorNumerico = new int[10];

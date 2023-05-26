@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex15;
 
 import javax.swing.JOptionPane;
 
-public class ComparacaoIdade {
+public class Questao15 {
 
 	public static void main(String[] args) {
 		String[] nomeCanditadas = new String[10];

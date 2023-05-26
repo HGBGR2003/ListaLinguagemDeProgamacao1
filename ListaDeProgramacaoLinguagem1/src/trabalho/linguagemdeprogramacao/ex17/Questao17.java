@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex17;
 
 import javax.swing.JOptionPane;
 
-public class ValoresSorteados {
+public class Questao17 {
 
 	public static void main(String[] args) {
 		int numeroAleatorio = (int) Math.floor(Math.random() * 100) + 1;

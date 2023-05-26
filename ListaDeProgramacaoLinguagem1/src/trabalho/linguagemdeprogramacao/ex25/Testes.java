@@ -2,7 +2,7 @@ package trabalho.linguagemdeprogramacao.ex25;
 
 import java.util.Arrays;
 
-public class PercorrendoOsMaiores {
+public class Testes {
 	public static int[] obterOsMaioresElementosDoVetor(int [][] vetor, int k) {
 		int totalElementos = vetor.length * vetor[0].length;
 		
