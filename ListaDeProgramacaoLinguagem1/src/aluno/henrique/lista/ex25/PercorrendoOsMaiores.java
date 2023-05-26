@@ -19,6 +19,7 @@ public class PercorrendoOsMaiores {
 				indice++;
 			}
 		}
+		
 		Arrays.sort(elementosVetor);
 		
 		int [] maioresElementosDoVetor = Arrays.copyOfRange(elementosVetor, totalElementos - k, totalElementos);
