@@ -18,7 +18,6 @@ public class MatrizAoDerredorZeros {
 		//Determina o tamanho da matriz.
 		int tamanho = (int) Math.ceil(Math.sqrt(numeros.length));
 		
-		//Array onde vai ser calculada a matriz quadrada.
 		int[][] vetorPrincipal = new int[tamanho][tamanho];
 		
 		for(int i = 0; i < vetorPrimeiro.length; i++) {

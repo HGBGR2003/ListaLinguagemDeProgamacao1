@@ -17,7 +17,6 @@ public class ComparacaoDeValores {
 		for(int i = 0; i < vetorNumerico.length;i++) {
 			valoresNoVetor = Integer.parseInt(JOptionPane.showInputDialog("Entre com um número inteiro e positivo ?"));
 			vetorNumerico[i] = valoresNoVetor;
-			System.out.println(vetorNumerico[i]);
 			
 			if(vetorNumerico[i] > numeroDigitadoX) {
 				contadorMaior++;
